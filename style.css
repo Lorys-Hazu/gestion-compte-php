@@ -1,0 +1,159 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+
+:disabled{
+  background-color: transparent ;
+}
+
+h1{
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+h2{
+  padding: 50px 0px;
+  text-align: center;
+}
+
+form, .divespace{
+  padding: 30px;
+  width: 30%;
+  box-shadow: 0px 0px 6px rgb(156, 156, 156);
+  border-radius: 20px;
+}
+
+.divespace{
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label, input{
+  display: block;
+}
+
+label{
+  font-weight: 600;
+  color: grey;
+  margin-top: 50px;
+}
+
+span{
+  font-weight: 600;
+  color: red;
+}
+
+input[type="email"], input[type="text"], input[type="password"], input[list]{
+  width: 90%;
+  border: none;
+  border-bottom: solid black 1px;
+}
+
+input[type="radio"]{
+  display: inline-block;
+}
+
+input[type="email"]:focus{
+  outline: none;
+}
+
+input[type="password"]:focus{
+  outline: none;
+}
+
+.villelabel{
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.action{
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0px auto;
+}
+
+#submit, .retour, a{
+  background-color: rgb(60, 145, 255);
+  padding: 9px 14px;
+  border: none;
+  margin-top: 50px;
+  color: white;
+  font-weight: 100;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+#inscription{
+  margin-top : 60px;
+  color: black;
+  font-weight: 200;
+  font-size: 15px;
+  padding-right: 0px;
+}
+
+.civilite-container{
+display: flex;
+}
+
+.civilite-label{
+  display: flex;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.civilite-label p{
+  margin-right: 5px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+.account-container{
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px rgb(156, 156,156);
+}
+
+.account-contain:nth-child(odd){
+  background-color: rgba(245,245,245);
+}
+
+.account-contain{
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+
+
+.account-picture{
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
